@@ -3,7 +3,7 @@
     width: 0;
     position: fixed;
     z-index: 2;
-    background-color: #233237;
+    background-image: linear-gradient(45deg, #233237, #38464b 50%, #4e5a5e 95%);
     overflow-x: hidden;
     transition: 0.2s;
     padding-top: 3em;
@@ -37,19 +37,19 @@
  
 
 #main {
-    transition: margin-left .5s;
+    transition: margin-left .3s;
     padding: 16px;
     background: rgba(0,0,0,0);
     z-index: 2;
     position: fixed;
 }
 
-    @media screen and (max-height: 450px) {
+    @media screen and (max-height: 700px) {
         .sidenav {
-            padding-top: 15px;
+            padding-top: 25px;
         }
 
             .sidenav a {
-                font-size: 18px;
+                font-size: 25px;
             }
     }
