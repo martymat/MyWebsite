@@ -50,6 +50,10 @@
         }
 
             .sidenav a {
-                font-size: 25px;
+                font-size: 20px;
+            }
+
+            .sidenav p {
+                font-size: 40px;
             }
     }
